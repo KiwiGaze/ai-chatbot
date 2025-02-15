@@ -16,15 +16,15 @@ import {
 } from './icons';
 import { Markdown } from './markdown';
 import { MessageActions } from './message-actions';
-import { PreviewAttachment } from './preview-attachment';
-import { Weather } from './weather';
+import { PreviewAttachment } from './preview-attachment';  // preview attached images in png or jpg format.
+import { Weather } from './weather'; // weather widget in the chat.
 import equal from 'fast-deep-equal';
 import { cn } from '@/lib/utils';
 import { Button } from './ui/button';
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
 import { MessageEditor } from './message-editor';
-import { DocumentPreview } from './document-preview';
-import { MessageReasoning } from './message-reasoning';
+import { DocumentPreview } from './document-preview'; // preview document in the chat, similar to canva mode in ChatGPT.
+import { MessageReasoning } from './message-reasoning';// message reasoning in the chat.
 
 const PurePreviewMessage = ({
   chatId,

@@ -1,3 +1,5 @@
+### Project Structure
+``` 
 ai-chatbot/
 ├── app
 │   ├── (auth)
@@ -173,3 +175,4 @@ ai-chatbot/
 └── tsconfig.json
 
 39 directories, 134 files
+```
